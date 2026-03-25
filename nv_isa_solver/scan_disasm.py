@@ -46,8 +46,24 @@ def main():
 
         def reverse_(a):
             return "".join(reversed([a[i : i + 2] for i in range(0, len(a), 2)]))
+        # Be tolerant: extract hex sequences like '0x...'; ignore other chars
+        import re
 
-        return bytes.fromhex(reverse_(first[2:]) + reverse_(second[2:]))
+        m1 = re.search(r"0x([0-9a-fA-F]+)", first)
+        m2 = re.search(r"0x([0-9a-fA-F]+)", second)
+        if not m1 or not m2:
+            return None
+        a = m1.group(1)
+        b = m2.group(1)
+        # Ensure even-length hex (should be), otherwise pad
+        if len(a) % 2 == 1:
+            a = "0" + a
+        if len(b) % 2 == 1:
+            b = "0" + b
+        try:
+            return bytes.fromhex(reverse_(a) + reverse_(b))
+        except Exception:
+            return None
 
     prev = None
     asm = None
@@ -69,7 +85,19 @@ def main():
             asm = new_asm
             continue
 
+        # If we haven't yet captured a previous dump (prev), skip this line
+        if prev is None:
+            prev = line_dump
+            asm = None
+            continue
+
         inst = to_bytes(prev, line_dump)
+        if inst is None:
+            # Could not parse hex from these comments; advance prev and skip
+            prev = line_dump
+            asm = None
+            continue
+
         if process_instruction(asm, inst):
             print("Distilling", asm)
             disassembler.distill_instruction(inst)

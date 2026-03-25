@@ -1,0 +1,22 @@
+{
+  "input": "/home/menxb/test/sm103a4_5/nv_isa_solver/disasm_cache_sm103a.txt",
+  "output": "/home/menxb/test/sm103a4_5/nv_isa_solver/disasm_cache_sm103a.txt.tmp",
+  "arch": "SM103a",
+  "nvdisasm": "/usr/local/cuda/bin/nvdisasm",
+  "jobs": 32,
+  "max_inflight": 64,
+  "requested_chunk_size": 16384,
+  "effective_chunk_size": 512,
+  "elapsed_sec": 8.0,
+  "seen_lines": 951473,
+  "kept_lines": 951473,
+  "rewritten_asm_lines": 951473,
+  "removed_illegal_lines": 0,
+  "removed_placeholder_lines": 0,
+  "kept_passthrough_lines": 0,
+  "format_invalid_lines": 0,
+  "chunks_checked": 1859,
+  "leaf_checks": 0,
+  "removed_examples": [],
+  "format_invalid_examples": []
+}

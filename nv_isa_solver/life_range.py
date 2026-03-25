@@ -1,4 +1,5 @@
 import subprocess
+import logging
 from enum import Enum
 import os
 import tempfile
@@ -84,8 +85,8 @@ def _process_range_output(output):
             for file, interaction in reg_interactions.items()
         }
     except Exception as e:
-        print(output)
-        print(e)
+        logging.debug(output)
+        logging.debug("_process_range_output exception", exc_info=True)
     return reg_interactions
 
 
@@ -125,7 +126,7 @@ def get_live_ranges(filename, nvdisasm="nvdisasm"):
     )
     error = proc.stderr.decode("ascii")
     if len(error) != 0:
-        print("Nvdisasm error!", error)
+        logging.debug("Nvdisasm error: %s", error.splitlines()[-1])
     result = proc.stdout.decode("ascii")
     return _process_range_output(result), result
 

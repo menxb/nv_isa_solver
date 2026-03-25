@@ -1,0 +1,1076 @@
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x10 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x92 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x10 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x92 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm warning : Disassembling Std Elf to Old format or Old Elf to Std format not supported yet, switching to Old format
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm warning : Dataflow analysis disabled due to previous warnings
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x20 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x40 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x80 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x10 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x40 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x20 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x80 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x10 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x20 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x40 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp__RRR', undefined value 0x80 for table 'TABLES_opex_5' at address 0x00000000
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x10 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x20 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x40 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Opclass 'f2fp_8b_upconvert__RRR', undefined value 0x80 for table 'TABLES_opex_7' at address 0x00000000
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm error   : Unrecognized operation for functional unit 'uC' at address 0x00000000
+nvdisasm error   : Illegal instruction found
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option
+nvdisasm fatal   : Life range printing is not supported with -ndf option

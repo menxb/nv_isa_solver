@@ -1,3 +1,4 @@
+
 """
 Based on CuAssembler's parser.
 """
@@ -6,6 +7,29 @@ import json
 from typing import Union
 import re
 from enum import Enum
+
+
+def _sanitize_ident(s: str):
+    """Strip leading placeholder markers (e.g. '???', 'INVALID') from ident tokens.
+
+    Returns None when the remaining ident is empty.
+    """
+    if s is None:
+        return None
+    try:
+        v = s
+        # Remove repeated leading '???'
+        while v.startswith("???"):
+            v = v[3:]
+        # Remove leading 'INVALID' (case-insensitive)
+        if v.upper().startswith("INVALID"):
+            v = v[len("INVALID") :]
+        v = v.strip()
+        if len(v) == 0:
+            return None
+        return v
+    except Exception:
+        return s
 
 p_InsPattern = re.compile(r"(?P<Pred>@!?U?P\w\s+)?\s*(?P<Op>[\w\.\?]+)(?P<Operands>.*)")
 
@@ -30,13 +54,19 @@ p_AttributeType = re.compile(r"a\[(?P<Addr>[+-?\w\.]+)\]")
 # Pattern for constant memory, some instructions have a mysterious space between two square brackets...
 p_URConstMemType = re.compile(r"cx\[(?P<URBank>UR\w+)\]\[(?P<Addr>[+-?\w\.]+)\]")
 
-p_DescAddressType = re.compile(r"g?desc\[(?P<URIndex>UR\d+)\](?P<Addr>\[.*\])?$")
+# Match desc variants: desc[], gdesc[], idesc[] etc. Allow optional alphabetic prefix before 'desc'
+p_DescAddressType = re.compile(r"[a-zA-Z]*desc\[(?P<URIndex>UR\d+)\](?P<Addr>\[.*\])?$")
+# tmem pattern (texture memory descriptors)
+# tmem can appear as tmem[UR0], tmem[UR0+0x1], or tmem[UR0][R0.64+0x1]
+p_TMemType = re.compile(
+    r"tmem\[\s*(?P<Index>[^\]\+]+)\s*(?P<Offset>\+[^\]]+)?\s*\]\s*(?P<Addr>\[.*\])?$",
+    re.DOTALL,
+)
 
 # RImmeAddr
 p_RImmeAddr = re.compile(r"(?P<R>R\d+)\s*(?P<II>-?0x[0-9a-fA-F]+)")
 
 c_OpPreModifierChar = {"!": "cNOT", "-": "cNEG", "|": "cABS", "~": "cINV"}
-
 p_FIType = re.compile(
     r"^(?P<Value>((-?\d+)(\.\d*)?((e|E)[-+]?\d+)?)|([+-]?INF)|([+-]NAN)|-?(0[fF][0-9a-fA-F]+))(?P<ModiSet>(\.[a-zA-Z]\w*)*)$"
 )
@@ -67,8 +97,6 @@ c_AddrFuncs = set(
         "PBK",
     ]
 )
-
-
 c_ModiDTypes = set(
     [
         "S4",
@@ -202,7 +230,6 @@ class Operand:
     def is_leaf(self):
         return len(self.sub_operands) == 0
 
-
 class RegOperand(Operand):
     def __init__(self, reg_type, ident, modifiers=None):
         super().__init__(modifiers=modifiers)
@@ -210,13 +237,25 @@ class RegOperand(Operand):
         self.ident = ident
 
     def __repr__(self):
-        base = self.reg_type + "_" + self.ident
+        base = self.reg_type + "_" + (self.ident if self.ident is not None else "")
         m = ".".join(self.modifiers)
         if len(m) != 0:
             return base + "." + m
         return base
 
     def get_operand_key(self):
+        # For fallback UNKNOWN operands, prefer using a sanitized
+        # version of the original token (ident) so that downstream
+        # canonical keys and HTML use a human-readable name instead
+        # of the opaque "UNKNOWN" label whenever possible.
+        if self.reg_type == "UNKNOWN" and isinstance(self.ident, str):
+            v = _sanitize_ident(self.ident)
+            if v:
+                return v
+        # ARRAY_D stores ident as the dimension (e.g. "2D"); return ARRAY_2D
+        # so title/key match distilled (disassembler output).
+        if self.reg_type == "ARRAY_D" and isinstance(self.ident, str) and self.ident:
+            return "ARRAY_" + self.ident
         return self.reg_type
 
     def compare(self, other):
@@ -292,8 +331,8 @@ class AddressOperand(Operand):
 
 
 class IntIMMOperand(Operand):
-    def __init__(self, constant):
-        super().__init__()
+    def __init__(self, constant, modifiers=None):
+        super().__init__(modifiers=modifiers)
         self.constant = constant
 
     def __repr__(self):
@@ -306,16 +345,20 @@ class IntIMMOperand(Operand):
         return self.constant == other.constant
 
     def to_json_obj(self):
-        return {"type": type(self).__name__, "constant": self.constant}
+        return {
+            "type": type(self).__name__,
+            "constant": self.constant,
+            "modifiers": self.modifiers,
+        }
 
     @classmethod
     def from_json_obj(cls, obj):
-        return cls(obj["constant"])
+        return cls(obj["constant"], modifiers=obj.get("modifiers", []))
 
 
 class FloatIMMOperand(Operand):
-    def __init__(self, constant: str):
-        super().__init__()
+    def __init__(self, constant: str, modifiers=None):
+        super().__init__(modifiers=modifiers)
         self.constant = constant
 
     def __repr__(self):
@@ -328,11 +371,15 @@ class FloatIMMOperand(Operand):
         return self.constant == other.constant
 
     def to_json_obj(self):
-        return {"type": type(self).__name__, "constant": self.constant}
+        return {
+            "type": type(self).__name__,
+            "constant": self.constant,
+            "modifiers": self.modifiers,
+        }
 
     @classmethod
     def from_json_obj(cls, obj):
-        return cls(obj["constant"])
+        return cls(obj["constant"], modifiers=obj.get("modifiers", []))
 
 
 class ConstantMemOperand(Operand):
@@ -378,9 +425,11 @@ class DescOperand(Operand):
 
     def __repr__(self):
         prefix = "g" if self.g else ""
-        return (
-            prefix + f"desc[{repr(self.sub_operands[0])}]{repr(self.sub_operands[1])}"
-        )
+        if len(self.sub_operands) > 1:
+            return prefix + f"desc[{repr(self.sub_operands[0])}]" + repr(
+                self.sub_operands[1]
+            )
+        return prefix + f"desc[{repr(self.sub_operands[0])}]"
 
     def to_json_obj(self):
         return {
@@ -487,6 +536,36 @@ class _InstructionParser:
         s = p_WhiteSpace.sub(" ", s)
         s = p_InsignificantSpace.sub("", s)
 
+        # Translate scoreboard set notation "{4,3,2,1,0}" (used by
+        # DEPBAR and friends) into a synthetic SBSET<mask> token so it
+        # becomes a single, named operand instead of a sequence of
+        # anonymous immediates or UNKNOWN fallbacks. The mask packs
+        # slot indices into bits: bit i is set if slot i appears in
+        # the set. For example, {4,3,2,1,0} -> SBSET31.
+        def _scoreboard_repl(match: re.Match) -> str:
+            body = match.group(1)
+            if body is None:
+                return match.group(0)
+            parts = [p.strip() for p in body.split(",") if p.strip()]
+            if not parts:
+                return match.group(0)
+            mask = 0
+            for p in parts:
+                try:
+                    v = int(p, 0)
+                except Exception:
+                    # Not a pure numeric set; keep original text.
+                    return match.group(0)
+                if v < 0 or v >= 32:
+                    # Out of expected scoreboard range; keep as-is.
+                    return match.group(0)
+                mask |= 1 << v
+            # Surround with spaces so later whitespace collapsing keeps
+            # SBSET token properly separated from neighbors.
+            return f" SBSET{mask} "
+
+        s = re.sub(r"\{([^}]*)\}", _scoreboard_repl, s)
+
         return s.strip(" {};")
 
     def _parseConstMemory(self, op):
@@ -552,11 +631,34 @@ class _InstructionParser:
         for ts in ss:
             if len(ts) == 0:
                 continue
+            # If the token contains unresolved placeholder markers (???),
+            # preserve it as a SNOWFLAKE operand rather than raising,
+            # but sanitize the ident so placeholder prefixes don't leak
+            # into downstream serialized JSON.
+            if "???" in ts:
+                operands.append(RegOperand("SNOWFLAKE", _sanitize_ident(ts)))
+                continue
             if ts.startswith("0x") or ts.startswith("-0x"):
                 operands.append(self._parseIntIMM(ts))
             else:
-                operand = self._parseIndexedToken(ts)
-                operands.append(operand)
+                # Try to handle indexed tokens that may include dot-modifiers
+                # e.g. R4.64 or R0.X8. Use parseOperandAtom to split main token
+                # and modifiers, then parse the main indexed token and attach
+                # modifiers to the resulting RegOperand. This avoids
+                # ValueError for tokens like 'R4.64'.
+                try:
+                    tmain, modi = self.parseOperandAtom(ts)
+                    operand = self._parseIndexedToken(tmain)
+                    # attach modifiers if any
+                    try:
+                        operand.modifiers += modi
+                    except Exception:
+                        pass
+                    operands.append(operand)
+                except Exception:
+                    # Fallback: preserve unknown token as RegOperand to avoid
+                    # raising and causing upstream None unpacking.
+                    operands.append(RegOperand("UNKNOWN", ts))
 
         return AddressOperand(operands)
 
@@ -569,7 +671,32 @@ class _InstructionParser:
         address = match.group("Addr")
         if address:
             address = self._parseAddress(address)
-        return DescOperand(reg, address, g=s.startswith("gdesc"))
+        # gdesc starts with 'g', idesc starts with 'i'. We treat any leading
+        # letter(s) before 'desc' as an indicator; only 'g' implies g=True.
+        gflag = s.startswith("gdesc")
+        return DescOperand(reg, address, g=gflag)
+
+    def _parseTmem(self, s):
+        """Parse tmem[UR0], tmem[UR0+0x4], tmem[UR0][R0.64+0x1].
+        The varying operand is the Index (UR0), not TMEM - return AddressOperand
+        so flatten() yields UR0 for operand bit mapping.
+        """
+        match = p_TMemType.match(s)
+        if match is None:
+            raise ValueError("Invalid tmem operand: %s" % s)
+
+        index_token = match.group("Index")
+        offset_token = match.group("Offset")  # e.g. +0x4
+        addr_token = match.group("Addr")  # e.g. [R0.64+0x1]
+
+        # Build address [Index] or [Index+Offset] and parse like _parseAddress
+        addr_str = "[" + index_token
+        if offset_token:
+            addr_str += offset_token
+        addr_str += "]"
+        address = self._parseAddress(addr_str)
+
+        return address
 
     def parseOperand(self, op_full):
         op, modi = self.parseOperandAtom(op_full)
@@ -586,51 +713,85 @@ class _InstructionParser:
             return self._parseAttribute(op)
         elif op.startswith("0x"):
             result = self._parseIntIMM(op)
-        elif p_FIType.match(op_full):
-            # float and friends
-            return self._parseFloatIMM(op_full)
-        elif op.startswith("desc") or op.startswith("gdesc"):
-            return self._parseDescAddress(op)
-        elif (
-            op
-            in [
-                "COMP_STATUS",
-                "ATEXIT_PC",
-                "TRAP_RETURN_PC",
-                "TRAP_RETURN_MASK",
-                "THREAD_STATE_ENUM",
-                "MCOLLECTIVE",
-                "MEXITED",
-                "TRA_RETURN_MASK",
-                "CUBE",
-                "OPT_STACK",
-            ]
-            or op.startswith("???")
-            or op.startswith("INVALID")
-        ):
-            result = RegOperand("SNOWFLAKE", op)
-        elif op.startswith("TEX_"):
-            result = RegOperand("TEX", op[4:])
-        elif op.startswith("SR_"):
-            result = RegOperand("SR", op[3:])
-        elif op == "Rpc":
-            result = RegOperand("PC", None)
-        elif op == "PR":
-            result = RegOperand("P", "R")
-        elif p_SwzAdd.match(op):
-            result = RegOperand("SwzAdd", op)
-        elif op == "UPR":
-            result = RegOperand("UP", "R")
-        elif op.startswith("INVALID"):
-            result = RegOperand("SR", op)
-        elif op in ["1D", "2D", "3D", "4D"]:
-            result = RegOperand("D", op[0])
-        elif op.startswith("ARRAY_"):
-            result = RegOperand("ARRAY_D", op[6:])
-        else:
-            # Weird special register?
+        # Only attempt these alternate/fallback parses if we didn't
+        # already produce a `result` earlier (e.g. indexed/address/const).
+        if result is None:
+            if p_FIType.match(op_full):
+                # float and friends
+                # Use op_full (not op) for the numeric constant because
+                # parseOperandAtom may have split "0.5" into main="0" and post_modi=".5",
+                # but we need the full float value "0.5" for FloatIMMOperand.
+                # Keep textual modifiers in `modi` so modifiers are attached to
+                # the operand separately. Assign to `result` so the common
+                # modifier-attachment at the end of this function still runs.
+                fit_match = p_FIType.match(op_full)
+                float_value = fit_match.group("Value") if fit_match else op_full
+                result = self._parseFloatIMM(float_value)
+            elif op.startswith("desc") or op.startswith("gdesc") or op.startswith("idesc"):
+                return self._parseDescAddress(op)
+            elif op.startswith("tmem"):
+                return self._parseTmem(op)
+            elif (
+                op
+                in [
+                    "COMP_STATUS",
+                    "ATEXIT_PC",
+                    "TRAP_RETURN_PC",
+                    "TRAP_RETURN_MASK",
+                    "THREAD_STATE_ENUM",
+                    "MCOLLECTIVE",
+                    "MEXITED",
+                    "TRA_RETURN_MASK",
+                    "CUBE",
+                    "OPT_STACK",
+                ]
+                or op.startswith("???")
+                or op.upper().startswith("INVALID")
+            ):
+                # Create a SNOWFLAKE operand but sanitize the ident so
+                # downstream JSON doesn't contain raw placeholder prefixes.
+                result = RegOperand("SNOWFLAKE", _sanitize_ident(op))
+            elif op.startswith("TEX_"):
+                result = RegOperand("TEX", op[4:])
+            elif op.startswith("SR_"):
+                result = RegOperand("SR", op[3:])
+            elif op == "Rpc":
+                result = RegOperand("PC", None)
+            elif op == "PR":
+                result = RegOperand("P", "R")
+            elif p_SwzAdd.match(op):
+                result = RegOperand("SwzAdd", op)
+            elif op == "UPR":
+                result = RegOperand("UP", "R")
+            elif op.startswith("INVALID"):
+                result = RegOperand("SR", op)
+            elif op in ["1D", "2D", "3D", "4D"]:
+                result = RegOperand("D", op[0])
+            elif op.startswith("ARRAY_"):
+                result = RegOperand("ARRAY_D", op[6:])
+
+        # If no branch produced a result above, fall back to UNKNOWN.
+        # This avoids overwriting a previously-parsed operand (e.g. constant
+        # memory) due to the conditional layout above.
+        if result is None:
+            # Weird special register? preserve unknown token instead of
+            # allowing a None result that later causes AttributeError.
+            result = RegOperand("UNKNOWN", op)
+
+        # If we produced a fallback RegOperand("UNKNOWN", op) but the
+        # main token actually looks like an indexed register (R0, UR1, P2,
+        # etc.), normalize it now so downstream logic (canonical keys,
+        # operand matching) sees the correct reg_type/ident.
+        try:
+            if isinstance(result, RegOperand) and result.reg_type == "UNKNOWN":
+                m = p_IndexedPattern.match(op)
+                if m:
+                    result.reg_type = m.group("RegType")
+                    result.ident = m.group("Index")
+        except Exception:
             pass
-        # NOTE: Not sure if I want to do this like this!!
+
+        # Attach modifiers and return
         result.modifiers += modi
         return result
 
@@ -672,21 +833,3 @@ class _InstructionParser:
 
 
 InstructionParser = _InstructionParser()
-
-if __name__ == "__main__":
-    failed = 0
-    success = 0
-    failed_inst = []
-    with open("test2.txt") as file:
-        for line in file:
-            asm = line.split("---")[0].strip()
-            print(asm)
-            try:
-                inst = InstructionParser.parseInstruction(asm[:-1])
-                print(inst)
-                success += 1
-            except Exception as e:
-                failed += 1
-                failed_inst.append(asm)
-        print("Failed", failed, "Success", success)
-        print("Failed instructions", failed_inst)

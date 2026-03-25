@@ -51,7 +51,11 @@ class TableBuilder:
         if vertical:
             style += "writing-mode: vertical-lr;width: 15px;"
 
-        self.result += f' style="{style}">'
+        # Only emit a style attribute when there is something to set.
+        if style:
+            self.result += f' style="{style}">'
+        else:
+            self.result += ">"
 
         self.result += text
         self.result += "</td>"

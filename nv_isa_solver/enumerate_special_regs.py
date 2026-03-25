@@ -1,4 +1,4 @@
-from instruction_solver import ISASpec
+from test.sm103a3.nv_isa_solver.nv_isa_solver.instruction_solver import ISASpec
 from disasm_utils import Disassembler
 
 isa = ISASpec.from_file("isa.json")
